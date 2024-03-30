@@ -59,13 +59,13 @@ button{
     align-items: center;
 }
 .first{
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='798' height='852' viewBox='0 0 798 852' fill='none'%3E%3Cpath d='M0 0H798L650 852H0V0Z' fill='%23158443'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
+    background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="798" height="852" viewBox="0 0 798 852" fill="none"><path d="M-566.5 0H798L650 852H-566.5V0Z" fill="%23158443"/></svg>');background-repeat: no-repeat;
     display: flex;
     padding: 0px 80px;
     justify-content: center;
     align-items: center;
     height: 500 px;
+    width: 1365px;
 }
 .first-text{
     display: inline-flex;
@@ -111,8 +111,9 @@ lottie-player{
     width: 484px;
     height: 402px;
     border-radius: 32px;
+    background-image: url('images/color_silver_shadow_true\ 1.png');
+    background-repeat: no-repeat;
     border: 1px solid var(--border-border-border, #E4E4E7);
-    background: rgba(255, 255, 255, 0.00);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 .right-first-text{
@@ -158,8 +159,8 @@ lottie-player{
     flex-shrink: 0;
     border-radius: 32px;
     border: 1px solid var(--border-border-border, #E4E4E7);
-    background: rgba(255, 255, 255, 0.00);
-
+    background-image: url('images/schedule.png');
+    background-repeat: no-repeat;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);    
 }
 .right-second-text{
@@ -349,4 +350,31 @@ lottie-player{
     border: 1px solid var(--border-border-border, #E4E4E7);
     background: var(--background-bg-background, #FFF);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+/* -------------------------------------------- */
+.contact{
+    display: flex;
+    width: 860px;
+    padding: 32px 64px;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: row-reverse;
+    border-radius: 32px;
+    border: 1px solid var(--border-border-border, #E4E4E7);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.social-media{
+    height: 64px;
+    flex-shrink: 0;
+    gap: 16px;
+    display: flex;
+    color: #000;
+    font-family: Alexandria;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    flex-direction: row-reverse;
 }
